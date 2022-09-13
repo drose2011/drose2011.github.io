@@ -60,7 +60,13 @@
       <div class="social-links">
         <a href="https://www.linkedin.com/in/dylanjrose/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         <a href="https://github.com/drose2011" class="github"><i class="bx bxl-github"></i></a>
-        <a href="#" onClick="document.location.href=getEmail()" class="gmail"><i class="bx bxl-gmail"></i></a>
+        <script>
+          var mt = "mailto"
+          var name = "dylan";
+          var domain = "roseweb.org";
+          document.write("<a href=\"" + mt + ":" + name + "@" + domain + "\" class=\"gmail\"><i class=\"bx bxl-gmail\"></i></a>")
+        </script>
+        <!-- <a href="#" class="gmail"><i class="bx bxl-gmail"></i></a> -->
       </div>
     </div>
   </section><!-- End Hero -->

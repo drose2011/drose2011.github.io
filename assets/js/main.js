@@ -266,14 +266,4 @@
    */
   new PureCounter();
 
-  /**
-   * Spam filter email decomposition
-   */
-   function getEmailHref() {
-    var mt = "mailto"
-    var name = "dylan";
-    var domain = "roseweb.org";
-    return mt + ":" + name + "@" + domain;
-   }
-
 })()
