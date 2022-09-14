@@ -323,6 +323,7 @@ h6 {
 #hero p span {
   color: #0563bb;
   letter-spacing: 1px;
+  font-style: italic;
 }
 
 #hero .social-links {
