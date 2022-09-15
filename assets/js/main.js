@@ -266,4 +266,15 @@
    */
   new PureCounter();
 
+  /**
+   * mailto link on click
+   */
+  function sendEmail() {
+    part1 = "mai";
+    part2 = "lto:dylan";
+    part3 = "@";
+    part4 = ".org";
+    window.location = part1 + part2 + part3 + part4;
+  }
+
 })()
