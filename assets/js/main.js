@@ -266,15 +266,16 @@
    */
   new PureCounter();
 
-  /**
-   * mailto link on click
-   */
-  function sendEmail() {
-    part1 = "mai";
-    part2 = "lto:dylan";
-    part3 = "@";
-    part4 = ".org";
-    window.location = part1 + part2 + part3 + part4;
-  }
-
 })()
+
+/**
+ * mailto link on click
+ */
+function sendEmail() {
+  var part1 = "mai";
+  var part2 = "lto:dylan";
+  var part3 = "@";
+  var part4 = "roseweb.org";
+  window.location = part1 + part2 + part3 + part4;
+  
+}
